@@ -4,7 +4,7 @@
 
 using namespace std;
 
-void perceptron_sigma (double beta, double eta, double E[], double d[], int k, double *x, double *w, double &y, double &dy){
+void neuron_sigma (double beta, double eta, double E[], double d[], int k, double *x, double *w, double &y, double &dy){
 	
 	y = 0., dy =0.;
 	double s = 0.;
@@ -46,11 +46,11 @@ int main() {
 	s = 0., y = 0., dy = 0. ;
 	do {
 
-		perceptron_sigma (beta, eta, E, d, 0, x1, w, y, dy);
+		neuron_sigma (beta, eta, E, d, 0, x1, w, y, dy);
 
-		perceptron_sigma (beta, eta, E, d, 1, x2, w, y, dy);
+		neuron_sigma (beta, eta, E, d, 1, x2, w, y, dy);
 
-		perceptron_sigma (beta, eta, E, d, 2, x3, w, y, dy);
+		neuron_sigma (beta, eta, E, d, 2, x3, w, y, dy);
 
 		E_ = E[0] + E[1] + E[2];
 
