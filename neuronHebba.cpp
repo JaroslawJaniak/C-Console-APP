@@ -1,4 +1,4 @@
-// zad1_perceptron1.cpp: Okreúla punkt wejúcia dla aplikacji konsoli.
+// zad1_perceptron1.cpp: Okre≈ìla punkt wej≈ìcia dla aplikacji konsoli.
 //
 
 
