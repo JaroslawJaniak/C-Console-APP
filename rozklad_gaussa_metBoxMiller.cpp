@@ -55,7 +55,7 @@ int main(int argc, char *argv[]) {
 		z1 = R * cos(fi); 
 		z2 = R * sin(fi);
 		
-		//bierzeny po uwagê tylko z1, tylko ona daje obraz rozk³adu normalnego
+		//bierzeny po uwagÃª tylko z1, tylko ona daje obraz rozkÂ³adu normalnego
 		int k = int (floor(((z1 * sigma + mi)-xd)/h));
 		N[k]++;
 	}
