@@ -1,7 +1,3 @@
-// zad1_perceptron1.cpp: Okreœla punkt wejœcia dla aplikacji konsoli.
-//
-
-
 #include <iostream>
 #include <math.h>
 
